@@ -35,3 +35,5 @@
 **Resultados**:
 
 ![Calculadora de média](dia-01/images/dia-01.png)
+
+![Conversor de temperatura](dia-01/images/dia-01-conversor.png)

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Conversor de Temperaturas</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de temperatura</h1>
+      <p class="page-subtitle">
+        Digite um valor em qualquer um dos campos para converter entre as temperatura
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </header>
+  <main>
+    <section id="inp">
+      <div class="temp">
+        <label>°F</label>
+        <input id="inputFahrenheit" type="number" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+      <div class="temp">
+        <label>°C</label>
+        <input id="inputCelsius" type="number" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/Gabrielchollet/" target="_blank">GitHub<img id="icon"
+        src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="GitHub">
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
