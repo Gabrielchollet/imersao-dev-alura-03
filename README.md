@@ -6,7 +6,7 @@
  
  ## 📚 Roteiro
 
-- [ ] Dia 01: Variáveis, operações e média
+- [ ] Dia 01: Calculadora de média
 - [ ] Dia 02: 
 - [ ] Dia 03: 
 - [ ] Dia 04:
@@ -16,8 +16,22 @@
 - [ ] Dia 09:
 - [ ] Dia 10:
   
-## 💼 Tecnologias
+## 📝 Tecnologias
 
 - HTML
 - CSS
 - Javascript
+
+## ✨ Resultados
+
+### Dia 01
+
+**Desafios**: 
+- Dizer se o aluno foi aprovado ou não dependendo das notas;
+- Estilizar a página;
+- Escrever na página o que foi escrito no código;
+- Conversor de temperaturas;
+
+**Resultados**:
+
+![Calculadora de média](dia-01/images/dia-01.png)

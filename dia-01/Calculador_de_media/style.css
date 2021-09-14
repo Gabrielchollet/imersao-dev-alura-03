@@ -1,0 +1,113 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'Roboto Mono',monospace;
+min-height: 400px;
+background-color: #000000;
+background-size: 80vh;
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+
+/* Header */
+.container {
+text-align: center;
+/*   padding: 20px;
+height: 100vh; */
+}
+
+.page-title {
+color:#ffffff;
+margin: 0 0 5px;
+}
+
+.page-subtitle {
+color:#ffffff;
+margin-top: 5px;
+}
+
+.page-logo {
+width: 200px;
+}
+
+.alura-logo {
+width: 40px;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+/* Table */
+table {
+  color: #ffffff;
+  width: 60%;
+  margin: 10px auto;
+}
+
+td, th {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+/* Inputs */
+#form {
+  width: 60%;
+/*   height: 80vh; */
+  background-color: #a40fb0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+input {
+  height: 1.75rem;
+  width: 45vw;
+}
+
+button {
+  height: 2rem;
+  width: 45vw;
+}
+
+#result {
+  color: #f7d445;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Footer */
+#icon {
+    width: 20px;
+    padding: 0 0;
+    margin: 0;
+    display: inline;
+    border-radius: 100%;
+    transform: translatey(0px);
+    box-shadow: 4px 6px 6px 1px rgb(0 0 0 / 56%);
+    transition: 0.7s;
+}
+
+a {
+    text-decoration: none;
+    color: #363f5f;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+}

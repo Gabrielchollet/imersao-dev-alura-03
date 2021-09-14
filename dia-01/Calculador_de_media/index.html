@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Média</title>
+</head>
+
+<body>
+  <html>
+
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="page-title">
+          Calculadora de média</h1>
+        <p class="page-subtitle">
+          Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+          class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Prova</th>
+            <th>Nota</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaNotas">
+        </tbody>
+      </table>
+
+
+      <div id="form">
+        <label>Insira suas notas</label>
+        <input type="text" placeholder="Nome da prova" id="testName">
+        <input type="number" placeholder="Nota" id="grade">
+        <button onclick="exibirNotasNaTela()">Adicionar nota</button>
+        <br><br>
+        <label>Sua média é: </label>
+        <input type="num" id="output" placeholder="Média final" disabled="disabled"><br><br>
+        <div id="result">
+
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/Gabrielchollet/" target="_blank">GitHub<img id="icon"
+          src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="GitHub">
+    </footer>
+
+    <script src="./exercicio_01.js"></script>
+  </body>
+
+  </html>
+</body>
+
+</html>
