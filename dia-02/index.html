@@ -1,15 +1,59 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>
+    Desafio aula 02 da imersão dev
+  </title>
+  <!-- Fonte utilizada para "h1" -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!-- Fonte utilizada para "p" -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <section>
+    <h1>💱 Conversor de Moedas</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+      class="page-logo" alt="">
+    <div>
+      <p>Digite um valor em qualquer um dos campos para converter entre as moedas:</p>
+      <div>
+        <label>R$</label>
+        <input id="inputReal" type="number" placeholder="Reais" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+      <div>
+        <label>$</label>
+        <input id="inputDolar" type="number" placeholder="Dólares" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+      <div>
+        <label>£</label>
+        <input id="inputLibra" type="number" placeholder="Libras" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+      <div>
+        <label>฿</label>
+        <input id="inputBitcoin" type="number" placeholder="Bitcoins" oninput="conversor(this.id,this.value)"
+          onchange="conversor(this.id,this.value)">
+      </div>
+    </div>
+  </section>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
 
+
+  <script src="./script.js"></script>
 </body>
 
 </html>

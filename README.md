@@ -6,8 +6,8 @@
  
  ## 📚 Roteiro
 
-- [ ] Dia 01: Calculadora de média
-- [ ] Dia 02: 
+- [x] Dia 01: Calculadora de média
+- [x] Dia 02: Conversor de moedas
 - [ ] Dia 03: 
 - [ ] Dia 04:
 - [ ] Dia 05:
@@ -26,14 +26,34 @@
 
 ### Dia 01
 
+<br>
+
 **Desafios**: 
 - Dizer se o aluno foi aprovado ou não dependendo das notas;
 - Estilizar a página;
 - Escrever na página o que foi escrito no código;
 - Conversor de temperaturas;
 
+<br>
+
 **Resultados**:
 
 ![Calculadora de média](dia-01/images/dia-01.png)
 
 ![Conversor de temperatura](dia-01/images/dia-01-conversor.png)
+
+<hr>
+
+### Dia 02
+
+<br>
+
+**Desafios**:
+- Adicionar outras moedas para converter.
+- Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra.
+- Conversor de temperaturas entre farenheit, kelvin e celcius.
+- Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin.
+
+**Resultados**:
+
+![Conversor de moedas](dia-02/images/conv_moedas.png)
