@@ -63,16 +63,17 @@ section h1 {
 }
 
 #resultado {
+  margin-top: 1rem;
   color: #4c1d95;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 button {
   padding: .8rem 1.5rem;
-    margin: 1rem 0;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
   cursor: pointer;
   outline: none;
   color: #fff;
@@ -85,4 +86,8 @@ button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.resetButton {
+  background-color: #fe0201;
 }

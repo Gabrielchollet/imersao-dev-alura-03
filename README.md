@@ -75,3 +75,13 @@
 ![Mentalista](./dia-03/images/inicial_page.png)
 
 <hr>
+
+### Dia 04
+
+<br>
+
+**Desafios**:
+
+**Resultados**:
+
+<hr>
