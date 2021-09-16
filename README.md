@@ -8,7 +8,7 @@
 
 - [x] Dia 01: Calculadora de média
 - [x] Dia 02: Conversor de moedas
-- [ ] Dia 03: 
+- [x] Dia 03: Mentalista 
 - [ ] Dia 04:
 - [ ] Dia 05:
 - [ ] Dia 06:
@@ -57,3 +57,21 @@
 **Resultados**:
 
 ![Conversor de moedas](dia-02/images/conv_moedas.png)
+
+<hr>
+
+### Dia 03
+
+<br>
+
+**Desafios**:
+- Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final.
+- Quando a pessoa errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
+
+**Resultados**:
+
+![Mentalista](./dia-03/images/inicial_page.png)
+
+![Mentalista](./dia-03/images/inicial_page.png)
+
+<hr>
