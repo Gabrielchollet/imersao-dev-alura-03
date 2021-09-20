@@ -1,0 +1,193 @@
+/*Global=============*/
+:root {
+    --dark-blue: #363f5f;
+    --green: #49AA26;
+    --greenHover: #3dd705;
+    --red: #e92929;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://pa1.narvii.com/6844/db0d7c8d3bfee186311d31c5960c414648357215_hq.gif");
+  position: relative;
+    height: 100vh;
+    width: 100vw;
+
+  background-color: #000000;
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/*Header======================*/
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  background-color: mediumpurple;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+
+/*Titles============================*/
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+    font-weight: normal;
+}
+
+/*Links & Buttons===============================*/
+a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--greenHover);
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: var(--green);
+    padding: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--greenHover);
+}
+
+.button.new {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.button.cancel {
+    color: var(--red);
+    border: 2px var(--red) solid;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.button.cancel:hover {
+    opacity: 1;
+}
+
+/*Modal================================*/
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background-color: #f0f2f5;
+    padding: 2.4rem;
+    position: relative; 
+    z-index: 1;
+}
+
+
+/*Form==================================*/
+
+#form {
+    max-width: 500px;
+}
+
+#form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.7;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
+}

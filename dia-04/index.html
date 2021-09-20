@@ -5,11 +5,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio aula 04 da imersão dev</title>
 </head>
 
 <body>
+  <header>
+    <div class="container">
+      <h1 class="page-title">
+        Aluraflix
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+        alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </header>
 
+  <main class="conteiner">
+    <section id="transaction">
+      <h2 class="sr-only">Leituras</h2>
+      <a href="#" class="button new" onclick="openModal()">+ Nova Leitura</a>
+
+    </section>
+  </main>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <div id="form">
+        <h2>Nova Leitura</h2>
+        <form action="" onsubmit="submitForm(event)">
+          <div class="input-group">
+            <label class="sr-only" for="title">Título</label>
+            <input type="text" id="title" name="title" placeholder="Título">
+          </div>
+
+          <div class="input-group">
+            <label class="sr-only" for="book_url">URL</label>
+            <input type="text" id="book_url" name="book_url" placeholder="Insira endereço de imagem">
+            <small class="help"></small>
+          </div>
+
+          <div class="input-group">
+            <label class="sr-only" for="">Capítulo</label>
+            <input type="text" id="chapter" name="chapter" placeholder="Insira o número do último capítulo lido">
+          </div>
+          <div class="input-group actions">
+            <a href="#" class="button cancel" onclick="closeModal()">Cancelar</a>
+            <button>Salvar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
